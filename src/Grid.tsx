@@ -20,6 +20,7 @@ const columnDefs: ColDef[] = [
 const NeoGrid = (): JSX.Element => {
   return (
     <div className="ag-theme-alpine" style={{ height: 900, width: 1920 }}>
+      <h1 className="title-main" style={{textAlign: "center"}}>Near-Earth Object Overview</h1>
       <AgGridReact
         rowData={data}
         columnDefs={columnDefs}

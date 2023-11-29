@@ -2,7 +2,7 @@ import NeoGrid from './Grid';
 
 const App = () => {
   return (
-      <NeoGrid />
+    <NeoGrid />
   );
 }
 
